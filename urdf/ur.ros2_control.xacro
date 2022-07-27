@@ -69,6 +69,7 @@
           <!-- initial position for the FakeSystem and simulation -->
           <param name="initial_value">${initial_positions['shoulder_pan_joint']}</param>
         </state_interface>
+        <param name="initial_position">${initial_positions['shoulder_pan_joint']}</param>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
@@ -85,6 +86,7 @@
           <!-- initial position for the FakeSystem and simulation -->
           <param name="initial_value">${initial_positions['shoulder_lift_joint']}</param>
         </state_interface>
+        <param name="initial_position">${initial_positions['shoulder_lift_joint']}</param>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
@@ -101,6 +103,7 @@
           <!-- initial position for the FakeSystem and simulation -->
           <param name="initial_value">${initial_positions['elbow_joint']}</param>
         </state_interface>
+        <param name="initial_position">${initial_positions['elbow_joint']}</param>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
@@ -117,6 +120,7 @@
           <!-- initial position for the FakeSystem and simulation -->
           <param name="initial_value">${initial_positions['wrist_1_joint']}</param>
         </state_interface>
+        <param name="initial_position">${initial_positions['wrist_1_joint']}</param>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
@@ -133,6 +137,7 @@
           <!-- initial position for the FakeSystem and simulation -->
           <param name="initial_value">${initial_positions['wrist_2_joint']}</param>
         </state_interface>
+        <param name="initial_position">${initial_positions['wrist_2_joint']}</param>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
@@ -149,6 +154,7 @@
           <!-- initial position for the FakeSystem and simulation -->
           <param name="initial_value">${initial_positions['wrist_3_joint']}</param>
         </state_interface>
+        <param name="initial_position">${initial_positions['wrist_3_joint']}</param>
         <state_interface name="velocity"/>
         <state_interface name="effort"/>
       </joint>
